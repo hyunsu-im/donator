@@ -29,7 +29,7 @@ var cors = require('cors');
 
 //// Set Server Parameters ////
 var host = '0.0.0.0';
-var port = '80';
+var port = '1588';
 
 ////////  Pathing and Module Setup  ////////
 app.set('views', path.join(__dirname, 'views'));

@@ -1,4 +1,4 @@
-extends ./template/layout.jade
+extends ./template/layout2.jade
 	
 	
 // --------------- Header -------------- //
@@ -14,20 +14,5 @@ block custom_header
 block navpanel
 	include ./template/nav_blocks.jade
 	
-	
-// --------------- Main Stuff  -------------- //
-block content
-	#contentPanel
-		
-		#blockdate(title="date of last block") loading...
-		
-		
-		// --------------- Home Panel
-		include ./panel_home.jade
-		
-		
-		// --------------- Create Panel
-		include ./panel_create.jade
-		
 block footer
 	include ./template/blockchain.jade
